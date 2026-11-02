@@ -1,0 +1,103 @@
+@import 'tailwindcss';
+@import 'lenis/dist/lenis.css';
+
+/* Design tokens. The values mirror the app (front/lab3-madero/styles) so the
+   web, the app and the backoffice look like one family. Change them here,
+   never inline. */
+@theme {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand blue scale (colors.primary) */
+  --color-primary-lightest: #d9e7f7;
+  --color-primary-lighter: #eaf2ff;
+  --color-primary-light: #5d8fcf;
+  --color-primary: #2e4a95;
+  --color-primary-accent: #3b78fa;
+  --color-primary-sky: #6ec1ff;
+  --color-primary-turquoise: #2bc4c4;
+  --color-primary-dark: #003b71;
+  --color-primary-darkest: #002e58;
+
+  /* Surfaces (colors.background) */
+  --color-surface: #ffffff;
+  --color-surface-soft: #f8fafd;
+  --color-surface-muted: #f3f2f9;
+  --color-border: #d3dae6;
+  --color-border-soft: #e3e6ec;
+  --color-divider: #d9dbe1;
+
+  /* Text (colors.gray) */
+  --color-ink: #111318;
+  --color-ink-muted: #6b7380;
+  --color-ink-faint: #8c8c94;
+
+  /* Status */
+  --color-success: #00dc16;
+  --color-warning: #ffbb00;
+  --color-error: #ee2222;
+
+  /* Label palettes, for chips and accents */
+  --color-label-green-bg: #dbf5a7;
+  --color-label-green: #3a6b12;
+  --color-label-orange-bg: #fbebda;
+  --color-label-orange: #c04a10;
+  --color-label-blue-bg: #e7f0ff;
+  --color-label-blue: #1a4f8a;
+  --color-label-purple-bg: #d0a3dd;
+  --color-label-purple: #6c0a90;
+  --color-label-yellow-bg: #fdfacc;
+  --color-label-yellow: #7a6800;
+
+  /* Login glow (GradientBackgroundIntense) */
+  --color-glow: #8ca2f2;
+  --color-glow-mid: #8fb2f4;
+  --color-glow-soft: #a5d2fa;
+
+  /* Radii (styles/radius) */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* Named spacing (styles/spacing), next to Tailwind's numeric scale */
+  --spacing-xxs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  --shadow-card: 0 8px 24px -12px rgb(17 19 24 / 18%);
+  --shadow-float: 0 30px 60px -30px rgb(46 74 149 / 35%);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+}
+
+/* Lenis owns scrolling; the canvas sits fixed behind the DOM. */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
