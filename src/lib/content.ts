@@ -4,7 +4,7 @@ export const SITE = {
   name: 'Red Madero',
   claim: 'Oficios verificados en tu casa.',
   description:
-    'Electricistas, gasistas y técnicos egresados del Instituto Madero (Centro de Formación Profesional N.° 405), verificados por nuestro equipo. Contá tu problema, recibí un presupuesto y coordiná la visita.',
+    'Electricistas, gasistas y técnicos egresados del Instituto Madero, verificados por nuestro equipo. Contá tu problema, recibí un presupuesto y coordiná la visita.',
   tagline: 'Conectamos personas con profesionales confiables para resolver lo que necesitás.',
 } as const
 
