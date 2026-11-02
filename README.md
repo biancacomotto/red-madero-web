@@ -8,7 +8,7 @@ Landing pública de Red Madero: qué es la app, para quién es y cómo empezar a
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Portada (`#top`)                 | Claim, gradiente animado y dos iPhone 3D con la bienvenida y el inicio de la app. La tarjeta se achica al salir.                                            |
 | Cómo funciona (`#como-funciona`) | Seis pasos del particular, uno por pantalla. Un iPhone 3D queda fijo y su pantalla cambia con cada paso (asistente, zona, perfil, presupuesto, chat, pago). |
-| Oficios (`#oficios`)             | Los siete oficios que siembra el backend y el panel de verificación (identidad, título, revisión, habilitado).                                              |
+| Oficios (`#oficios`)             | Los siete oficios del Instituto Madero (CFP N.° 405) que siembra el backend y el panel de verificación (identidad, título, revisión, habilitado).           |
 | Profesionales (`#profesionales`) | Dos iPhone 3D que alternan solicitudes, armado de presupuesto, agenda y billetera.                                                                          |
 | Confianza (`#confianza`)         | Verificación, reportar y bloquear, datos y pagos.                                                                                                           |
 | Descargar (`#descargar`)         | El QR grande, los botones de tiendas y el pie de página.                                                                                                    |

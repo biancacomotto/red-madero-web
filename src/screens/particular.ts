@@ -396,7 +396,7 @@ export const profile: Painter = (ctx, assets) => {
   text(ctx, '4,9', 149, 246, 13, C.title, 700)
   text(ctx, '(32 reseñas)', 174, 246, 12, C.subtitle, 400)
   disc(ctx, 254, 242, 2, C.muted)
-  text(ctx, 'Egresado CFP 405', 264, 246, 12, C.subtitle, 500)
+  text(ctx, 'Instituto Madero', 264, 246, 12, C.subtitle, 500)
 
   let x = 24
   SKILLS.forEach(([label, node, palette], index) => {

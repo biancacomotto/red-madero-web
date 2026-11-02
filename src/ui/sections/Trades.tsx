@@ -33,7 +33,7 @@ const COLORS: Record<Palette, { bg: string; ink: string }> = {
   pink: { bg: 'var(--color-info-pink)', ink: 'var(--color-label-pink)' },
 }
 
-/** The seven trades of the CFP N.° 405 and how a professional gets verified before working. */
+/** The seven trades taught at the Instituto Madero and how a professional gets verified before working. */
 export function Trades() {
   const section = useRef<HTMLElement>(null)
   const [entered, setEntered] = useState(false)
@@ -73,8 +73,8 @@ export function Trades() {
               Siete oficios, un mismo estándar.
             </h2>
             <p className="mt-5 max-w-md text-base leading-relaxed text-ink-muted md:text-lg">
-              Todos egresados del Centro de Formación Profesional N.° 405. Buscás por oficio y ves
-              quién lo resuelve cerca tuyo.
+              Todos egresados del Instituto Madero, el Centro de Formación Profesional N.° 405.
+              Buscás por oficio y ves quién lo resuelve cerca tuyo.
             </p>
           </div>
           <ul className="trade-grid" aria-label="Oficios disponibles">

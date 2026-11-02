@@ -90,7 +90,7 @@ export function Hero({ mobile }: HeroProps) {
 
           <div className="relative grid h-full items-center gap-8 px-6 pt-24 pb-28 md:grid-cols-[1fr_1fr] md:px-14 md:pt-20 md:pb-14 lg:px-20">
             <div data-hero-content className="max-w-xl">
-              <p className="eyebrow">Red Madero · Egresados del CFP N.° 405</p>
+              <p className="eyebrow">Red Madero · Egresados del Instituto Madero</p>
               <h1 className="mt-5 text-[clamp(2.5rem,5.4vw,5.2rem)] leading-[0.98] font-extrabold tracking-[-0.045em] text-balance">
                 Oficios verificados en tu casa<span className="text-primary">.</span>
               </h1>

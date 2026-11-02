@@ -4,7 +4,7 @@ export const SITE = {
   name: 'Red Madero',
   claim: 'Oficios verificados en tu casa.',
   description:
-    'Electricistas, gasistas y técnicos egresados del Centro de Formación Profesional N.° 405, verificados por nuestro equipo. Contá tu problema, recibí un presupuesto y coordiná la visita.',
+    'Electricistas, gasistas y técnicos egresados del Instituto Madero (Centro de Formación Profesional N.° 405), verificados por nuestro equipo. Contá tu problema, recibí un presupuesto y coordiná la visita.',
   tagline: 'Conectamos personas con profesionales confiables para resolver lo que necesitás.',
 } as const
 
@@ -47,7 +47,7 @@ export const STEPS: FlowStep[] = [
     id: 'elegir',
     screen: 'profile',
     title: 'Elegí a quién llamar',
-    text: 'Perfiles reales: experiencia, fotos de trabajos anteriores, reseñas y disponibilidad. Todos egresados del CFP N.° 405 y verificados.',
+    text: 'Perfiles reales: experiencia, fotos de trabajos anteriores, reseñas y disponibilidad. Todos egresados del Instituto Madero y verificados.',
     mascot: { src: '/mascota/lupa.webp', alt: 'El castor con una lupa' },
   },
   {
@@ -112,7 +112,7 @@ export const TRADES: Trade[] = [
 /** How a professional gets verified before receiving requests. */
 export const VERIFICATION = [
   { title: 'Identidad', text: 'DNI y CUIT/CUIL de cada profesional.' },
-  { title: 'Título', text: 'Egreso del CFP N.° 405 y año de egreso.' },
+  { title: 'Título', text: 'Egreso del Instituto Madero y año de egreso.' },
   { title: 'Revisión', text: 'Nuestro equipo revisa cada perfil, uno por uno.' },
   { title: 'Habilitado', text: 'Recién entonces puede recibir solicitudes.' },
 ] as const
