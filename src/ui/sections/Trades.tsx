@@ -73,8 +73,8 @@ export function Trades() {
               Siete oficios, un mismo estándar.
             </h2>
             <p className="mt-5 max-w-md text-base leading-relaxed text-ink-muted md:text-lg">
-              Todos egresados del Instituto Madero, el Centro de Formación Profesional N.° 405.
-              Buscás por oficio y ves quién lo resuelve cerca tuyo.
+              Todos egresados del Instituto Madero. Buscás por oficio y ves quién lo resuelve cerca
+              tuyo.
             </p>
           </div>
           <ul className="trade-grid" aria-label="Oficios disponibles">
